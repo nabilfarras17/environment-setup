@@ -19,7 +19,7 @@ chsh -s $(which zsh)
 # Install fonts-powerline
 sudo apt-get install fonts-powerline
 
-# Install ohMyZsh
+# Install OhMyZsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 source ~/.zshrc
